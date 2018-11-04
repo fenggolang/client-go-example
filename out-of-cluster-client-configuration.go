@@ -44,7 +44,7 @@ func main() {
 		// - Use helper functions like e.g. errors.IsNotFound()
 		// - And/or cast to StatusError and use its properties like e.g. ErrStatus.Message
 		namespace := "default"
-		pod := "example-xxxxx"
+		pod := "router-1-gdqmz"
 		_, err = clientset.CoreV1().Pods(namespace).Get(pod, metav1.GetOptions{})
 		if errors.IsNotFound(err) {
 			fmt.Printf("Pod %s in namespace %s not found\n", pod, namespace)
@@ -59,7 +59,6 @@ func main() {
 
 		time.Sleep(10 * time.Second)
 	}
-
 }
 
 func homeDir() string {
