@@ -53,7 +53,7 @@ func main() {
 
 	// 查询k8s是否有该deployment
 	if _, err = clientset.ExtensionsV1beta1().Deployments("wpc").Get(deployment.Name, meta_v1.GetOptions{}); err != nil {
-		if !errors.IsNotFound(err) {
+		if !errors.IsNotFound(err) { // 已存在
 			fmt.Println(err)
 			return
 		}
