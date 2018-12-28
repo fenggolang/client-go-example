@@ -1,23 +1,24 @@
 package common
 
 import (
+	"io/ioutil"
+
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
-	"io/ioutil"
 	"k8s.io/client-go/tools/clientcmd"
 )
 
 // 初始化k8s客户端
-func InitClient() (clientset *kubernetes.Clientset,err error) {
+func InitClient() (clientset *kubernetes.Clientset, err error) {
 	var (
 		restConf *rest.Config
 	)
 
-	if restConf,err =  GetRestConf();err!=nil{
+	if restConf, err = GetRestConf(); err != nil {
 		return
 	}
 	// 生成clientset配置
-	if clientset,err = kubernetes.NewForConfig(restConf);err!=nil{
+	if clientset, err = kubernetes.NewForConfig(restConf); err != nil {
 		return
 	}
 
@@ -31,11 +32,11 @@ func GetRestConf() (restConf *rest.Config, err error) {
 	)
 
 	// 读取kubeconfig文件
-	if kubeconfig,err = ioutil.ReadFile("./admin.conf");err!=nil{
+	if kubeconfig, err = ioutil.ReadFile("/home/wangfeng/.kube/config"); err != nil {
 		return
 	}
 	// 生成rest client配置
-	if restConf,err = clientcmd.RESTConfigFromKubeConfig(kubeconfig);err!=nil{
+	if restConf, err = clientcmd.RESTConfigFromKubeConfig(kubeconfig); err != nil {
 		return
 	}
 
