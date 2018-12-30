@@ -21,7 +21,6 @@ import (
 	"strings"
 
 	"github.com/spf13/pflag"
-
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 )
 

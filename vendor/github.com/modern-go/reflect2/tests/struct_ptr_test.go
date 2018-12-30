@@ -1,9 +1,9 @@
 package tests
 
 import (
+	"context"
 	"testing"
 
-	"context"
 	"github.com/modern-go/reflect2"
 	"github.com/modern-go/test"
 	"github.com/modern-go/test/must"

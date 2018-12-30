@@ -36,7 +36,6 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-
 	pb "github.com/golang/protobuf/proto/proto3_proto"
 	testpb "github.com/golang/protobuf/proto/test_proto"
 	anypb "github.com/golang/protobuf/ptypes/any"

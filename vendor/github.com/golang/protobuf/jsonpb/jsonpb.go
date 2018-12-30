@@ -52,7 +52,6 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-
 	stpb "github.com/golang/protobuf/ptypes/struct"
 )
 

@@ -25,7 +25,6 @@ import (
 	"net/url"
 
 	"github.com/golang/glog"
-
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/third_party/forked/golang/netutil"
 )

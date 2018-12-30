@@ -29,7 +29,6 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/imdario/mergo"
-
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"

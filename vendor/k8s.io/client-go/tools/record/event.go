@@ -19,8 +19,10 @@ package record
 import (
 	"fmt"
 	"math/rand"
+	"net/http"
 	"time"
 
+	"github.com/golang/glog"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -30,10 +32,6 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	restclient "k8s.io/client-go/rest"
 	ref "k8s.io/client-go/tools/reference"
-
-	"net/http"
-
-	"github.com/golang/glog"
 )
 
 const maxTriesPerEvent = 12

@@ -21,9 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/apimachinery/pkg/util/sets"
-
 	"github.com/golang/glog"
+	"k8s.io/apimachinery/pkg/util/sets"
 )
 
 // NewDeltaFIFO returns a Store which can be used process changes to items.

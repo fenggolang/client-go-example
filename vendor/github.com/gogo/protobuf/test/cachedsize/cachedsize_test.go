@@ -29,8 +29,9 @@
 package cachedsize
 
 import (
-	"github.com/gogo/protobuf/proto"
 	"testing"
+
+	"github.com/gogo/protobuf/proto"
 )
 
 func TestCachedSize(t *testing.T) {

@@ -13,9 +13,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"time"
-
-	// As of https://go-review.googlesource.com/#/c/12772/ which was submitted
+	"time" // As of https://go-review.googlesource.com/#/c/12772/ which was submitted
 	// in July 2015, this package uses an internal fork of the standard
 	// library's encoding/xml package, due to changes in the way namespaces
 	// were encoded. Such changes were introduced in the Go 1.5 cycle, but were
@@ -32,6 +30,7 @@ import (
 	// In the long term, this package should use the standard library's version
 	// only, and the internal fork deleted, once
 	// https://github.com/golang/go/issues/13400 is resolved.
+
 	ixml "golang.org/x/net/webdav/internal/xml"
 )
 

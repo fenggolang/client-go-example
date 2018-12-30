@@ -20,10 +20,9 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/googleapis/gnostic/printer"
-
 	openapi "github.com/googleapis/gnostic/OpenAPIv2"
 	plugins "github.com/googleapis/gnostic/plugins"
+	"github.com/googleapis/gnostic/printer"
 )
 
 // generate a simple report of an OpenAPI document's contents

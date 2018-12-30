@@ -20,7 +20,6 @@ import (
 	"fmt"
 	"net/url"
 	"reflect"
-
 	"strings"
 
 	"k8s.io/apimachinery/pkg/conversion"

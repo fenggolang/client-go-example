@@ -2,9 +2,10 @@ package test
 
 import (
 	"encoding/json"
+	"testing"
+
 	"github.com/json-iterator/go"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func Test_marshal_indent(t *testing.T) {

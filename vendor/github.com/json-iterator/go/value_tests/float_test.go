@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/json-iterator/go"
-	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
+
+	"github.com/json-iterator/go"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_read_float(t *testing.T) {

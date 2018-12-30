@@ -29,11 +29,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/golang/glog"
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/util/json"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-
-	"github.com/golang/glog"
 )
 
 // UnstructuredConverter is an interface for converting between interface{}

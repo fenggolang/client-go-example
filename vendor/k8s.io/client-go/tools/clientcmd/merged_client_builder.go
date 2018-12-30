@@ -21,7 +21,6 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-
 	restclient "k8s.io/client-go/rest"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 )

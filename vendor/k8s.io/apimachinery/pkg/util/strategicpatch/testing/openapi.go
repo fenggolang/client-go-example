@@ -21,10 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"gopkg.in/yaml.v2"
-
 	"github.com/googleapis/gnostic/OpenAPIv2"
 	"github.com/googleapis/gnostic/compiler"
+	"gopkg.in/yaml.v2"
 	openapi "k8s.io/kube-openapi/pkg/util/proto"
 )
 

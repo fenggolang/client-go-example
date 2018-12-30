@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"github.com/modern-go/reflect2"
 	"testing"
 	"time"
+
+	"github.com/modern-go/reflect2"
 )
 
 func Test_map_elem_struct(t *testing.T) {

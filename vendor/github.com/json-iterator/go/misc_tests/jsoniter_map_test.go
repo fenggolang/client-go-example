@@ -3,11 +3,11 @@ package misc_tests
 import (
 	"encoding/json"
 	"math/big"
+	"strings"
 	"testing"
 
 	"github.com/json-iterator/go"
 	"github.com/stretchr/testify/require"
-	"strings"
 )
 
 func Test_decode_TextMarshaler_key_map(t *testing.T) {

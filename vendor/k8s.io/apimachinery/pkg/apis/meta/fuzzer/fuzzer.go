@@ -24,7 +24,6 @@ import (
 	"strings"
 
 	"github.com/google/gofuzz"
-
 	"k8s.io/apimachinery/pkg/api/resource"
 	apitesting "k8s.io/apimachinery/pkg/api/testing"
 	"k8s.io/apimachinery/pkg/api/testing/fuzzer"

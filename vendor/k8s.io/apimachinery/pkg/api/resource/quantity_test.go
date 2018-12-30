@@ -24,7 +24,6 @@ import (
 	"unicode"
 
 	fuzz "github.com/google/gofuzz"
-
 	inf "gopkg.in/inf.v0"
 )
 

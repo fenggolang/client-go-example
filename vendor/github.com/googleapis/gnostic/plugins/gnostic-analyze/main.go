@@ -33,10 +33,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/googleapis/gnostic/plugins/gnostic-analyze/statistics"
-
 	openapi "github.com/googleapis/gnostic/OpenAPIv2"
 	plugins "github.com/googleapis/gnostic/plugins"
+	"github.com/googleapis/gnostic/plugins/gnostic-analyze/statistics"
 )
 
 // Record an error, then serialize and return a response.

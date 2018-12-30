@@ -23,7 +23,6 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilcache "k8s.io/apimachinery/pkg/util/cache"

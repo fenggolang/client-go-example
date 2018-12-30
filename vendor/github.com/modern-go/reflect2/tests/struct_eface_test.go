@@ -1,8 +1,9 @@
 package tests
 
 import (
-	"github.com/modern-go/reflect2"
 	"testing"
+
+	"github.com/modern-go/reflect2"
 )
 
 func Test_struct_eface(t *testing.T) {

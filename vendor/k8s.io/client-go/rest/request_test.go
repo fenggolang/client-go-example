@@ -36,7 +36,6 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-
 	"k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

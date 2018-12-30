@@ -23,7 +23,6 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 )
 

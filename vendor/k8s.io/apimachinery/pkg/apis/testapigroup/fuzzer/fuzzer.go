@@ -20,7 +20,6 @@ import (
 	"fmt"
 
 	"github.com/google/gofuzz"
-
 	apitesting "k8s.io/apimachinery/pkg/api/testing"
 	"k8s.io/apimachinery/pkg/api/testing/fuzzer"
 	"k8s.io/apimachinery/pkg/apis/testapigroup"

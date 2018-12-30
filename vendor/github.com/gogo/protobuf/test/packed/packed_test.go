@@ -31,12 +31,13 @@ package packed
 import (
 	"bytes"
 	"fmt"
-	"github.com/gogo/protobuf/proto"
 	math_rand "math/rand"
 	"runtime"
 	"testing"
 	"time"
 	"unsafe"
+
+	"github.com/gogo/protobuf/proto"
 )
 
 func BenchmarkVarintIssue436withCount(b *testing.B) {

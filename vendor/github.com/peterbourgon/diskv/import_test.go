@@ -4,10 +4,9 @@ import (
 	"bytes"
 	"io/ioutil"
 	"os"
+	"testing"
 
 	"github.com/peterbourgon/diskv"
-
-	"testing"
 )
 
 func TestImportMove(t *testing.T) {

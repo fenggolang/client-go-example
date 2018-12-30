@@ -30,7 +30,6 @@ import (
 	"testing"
 
 	"github.com/elazarl/goproxy"
-
 	"k8s.io/apimachinery/pkg/util/httpstream"
 )
 

@@ -25,7 +25,6 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-
 	openapi "github.com/googleapis/gnostic/OpenAPIv2"
 	plugins "github.com/googleapis/gnostic/plugins"
 )

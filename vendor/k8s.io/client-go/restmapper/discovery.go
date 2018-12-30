@@ -21,12 +21,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/golang/glog"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/discovery"
-
-	"github.com/golang/glog"
 )
 
 // APIGroupResources is an API group with a mapping of versions to

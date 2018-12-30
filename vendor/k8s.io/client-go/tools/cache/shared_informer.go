@@ -21,14 +21,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/golang/glog"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/clock"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/util/buffer"
 	"k8s.io/client-go/util/retry"
-
-	"github.com/golang/glog"
 )
 
 // SharedInformer has a shared data cache and is capable of distributing notifications for changes

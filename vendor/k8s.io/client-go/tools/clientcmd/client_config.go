@@ -26,7 +26,6 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/imdario/mergo"
-
 	restclient "k8s.io/client-go/rest"
 	clientauth "k8s.io/client-go/tools/auth"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"

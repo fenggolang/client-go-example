@@ -24,7 +24,6 @@ import (
 	"os"
 
 	"golang.org/x/crypto/ssh/terminal"
-
 	clientauth "k8s.io/client-go/tools/auth"
 )
 

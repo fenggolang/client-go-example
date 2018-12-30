@@ -23,7 +23,6 @@ import (
 	"net/url"
 
 	"github.com/golang/glog"
-
 	"k8s.io/apimachinery/pkg/util/httpstream"
 	"k8s.io/apimachinery/pkg/util/remotecommand"
 	restclient "k8s.io/client-go/rest"

@@ -22,7 +22,6 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 )
 

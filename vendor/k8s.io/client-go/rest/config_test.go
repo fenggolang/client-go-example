@@ -27,6 +27,8 @@ import (
 	"strings"
 	"testing"
 
+	fuzz "github.com/google/gofuzz"
+	"github.com/stretchr/testify/assert"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
@@ -34,9 +36,6 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 	"k8s.io/client-go/util/flowcontrol"
-
-	fuzz "github.com/google/gofuzz"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestIsConfigTransportTLS(t *testing.T) {

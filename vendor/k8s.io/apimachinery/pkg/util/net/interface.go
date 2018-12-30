@@ -23,7 +23,6 @@ import (
 	"io"
 	"net"
 	"os"
-
 	"strings"
 
 	"github.com/golang/glog"

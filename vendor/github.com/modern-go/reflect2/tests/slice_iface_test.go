@@ -1,14 +1,14 @@
 package tests
 
 import (
+	"context"
 	"errors"
+	"testing"
+	"unsafe"
+
 	"github.com/modern-go/reflect2"
 	"github.com/modern-go/test"
-	"testing"
-
-	"context"
 	"github.com/modern-go/test/must"
-	"unsafe"
 )
 
 func Test_slice_iface(t *testing.T) {

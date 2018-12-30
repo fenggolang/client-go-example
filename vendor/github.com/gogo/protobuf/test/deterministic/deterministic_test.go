@@ -30,8 +30,9 @@ package deterministic
 
 import (
 	"bytes"
-	"github.com/gogo/protobuf/proto"
 	"testing"
+
+	"github.com/gogo/protobuf/proto"
 )
 
 func getTestMap() map[string]string {

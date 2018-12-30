@@ -40,9 +40,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-
 	pb "github.com/golang/protobuf/jsonpb/jsonpb_test_proto"
+	"github.com/golang/protobuf/proto"
 	proto3pb "github.com/golang/protobuf/proto/proto3_proto"
 	"github.com/golang/protobuf/ptypes"
 	anypb "github.com/golang/protobuf/ptypes/any"

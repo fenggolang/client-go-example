@@ -22,7 +22,6 @@ import (
 	"sync"
 
 	"github.com/googleapis/gnostic/OpenAPIv2"
-
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/version"

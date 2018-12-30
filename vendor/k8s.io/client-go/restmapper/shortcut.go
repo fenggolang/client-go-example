@@ -20,7 +20,6 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"

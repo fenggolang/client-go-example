@@ -28,7 +28,6 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/google/gofuzz"
 	flag "github.com/spf13/pflag"
-
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	apimeta "k8s.io/apimachinery/pkg/api/meta"
 	apitesting "k8s.io/apimachinery/pkg/api/testing"

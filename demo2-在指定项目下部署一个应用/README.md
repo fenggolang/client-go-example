@@ -1,0 +1,1 @@
+- 解析yaml为json,反序列化到deployment对象，修改deployment.spec.replicas,提交到k8s生效

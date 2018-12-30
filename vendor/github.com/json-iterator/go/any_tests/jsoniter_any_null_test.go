@@ -1,9 +1,10 @@
 package any_tests
 
 import (
+	"testing"
+
 	"github.com/json-iterator/go"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func Test_read_null_as_any(t *testing.T) {

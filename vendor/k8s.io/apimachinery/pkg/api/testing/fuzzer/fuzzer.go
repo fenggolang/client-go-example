@@ -20,7 +20,6 @@ import (
 	"math/rand"
 
 	"github.com/google/gofuzz"
-
 	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
 )
 

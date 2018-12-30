@@ -2,11 +2,12 @@ package tests
 
 import (
 	"context"
+	"testing"
+	"unsafe"
+
 	"github.com/modern-go/reflect2"
 	"github.com/modern-go/test"
 	"github.com/modern-go/test/must"
-	"testing"
-	"unsafe"
 )
 
 func Test_int(t *testing.T) {
