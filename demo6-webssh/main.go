@@ -106,9 +106,9 @@ func wsHandler(resp http.ResponseWriter, req *http.Request) {
 	}
 
 	// 获取pods
-	podName = "nginx-deployment-5cbd8757f-d5qvx"
+	podName = "nfs-client-provisioner-69665d796c-m26k7"
 	podNs = "default"
-	containerName = "nginx"
+	containerName = "nfs-client-provisioner"
 
 	// 获取k8s rest client配置
 	if restConf, err = common.GetRestConf(); err != nil {
